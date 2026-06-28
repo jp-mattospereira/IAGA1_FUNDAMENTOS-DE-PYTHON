@@ -19,7 +19,7 @@ if (vlr_IMC >= 30) and (vlr_IMC < 35):
 if (vlr_IMC >= 35) and (vlr_IMC < 40):
     interpretacao = "Obesidade grau II"
 
-print()
+print("\n")
 print(f"Nome do Paciente.....: {paciente}")
 print(f"Peso Corporal........: {pc:.3f} kg")
 print(f"Altura...............: {alt:.2f} m")

@@ -1,3 +1,6 @@
+
+#: realiza as operações aritméticas básicas: adição, subtração, multiplicação e divisão inteira e real
+
 a = int(input("a:"))
 b = int(input("b:"))
 
