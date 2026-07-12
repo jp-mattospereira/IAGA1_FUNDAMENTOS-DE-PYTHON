@@ -1,0 +1,2 @@
+joao paulo; 85.0; 1.78
+larissa de araujo; 77.0; 1.7

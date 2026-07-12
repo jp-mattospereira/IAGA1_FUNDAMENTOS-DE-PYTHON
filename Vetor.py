@@ -4,7 +4,9 @@ def entrada (id, tam): # Recebe um identificador e um tamanho, e retorna um veto
     x = [] # Inicializa uma lista vazia para armazenar os valores do vetor
     for i in range(tam): # Loop de 0 a tam-1
         x.append(int(input(f"{i + 1}o. valor, {id}[{i}]: "))) # Solicita ao usuário que insira um valor inteiro para cada posição do vetor e adiciona à lista x
+    
     print() # Imprime uma linha em branco para separar os blocos de código
+   
     return (x) # Retorna o vetor preenchido com os valores do usuário
 
 
@@ -19,14 +21,17 @@ def saida (id, x): # Recebe um identificador e um vetor, e imprime os valores do
     result += "]" # Adiciona o fechamento do vetor à string result
     return (result) # Retorna a string result
 
+
 def somar (x):
     return sum(x) # Retorna a soma de todos os elementos do vetor x
+
 
 def media (x):
     return (sum(x) / len(x)) # Retorna a média dos elementos do vetor x   
 
+
 def toString (id, x):
-    result = saida(id, x)    
-    f"\n \nSoma dos Valores = {somar(x)}\n"
-    f"Média dos Valores = {media(x)}" # Concatena a saída do vetor, a soma e a média em uma única string
+    result = (saida(id, x) +
+              f"\n \nSoma dos Valores = {somar(x)}\n" +
+              f"Média dos Valores     = {media(x)}\n")
     return (result) # Retorna a string result
