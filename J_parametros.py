@@ -17,9 +17,12 @@ def boasVindas(nome, sexo):
 # Módulo Principal
 digaOla() # Chama a função digaOla, que não recebe parâmetros.
 print() # Imprime uma linha em branco para separar os blocos de código.
+
 digaOlaPara("João") # Chama a função digaOlaPara com o parâmetro "João".
 print() # Imprime uma linha em branco para separar os blocos de código.
+
 boasVindas("Maria", "f") # Chama a função boasVindas com os parâmetros "Maria" e "f" (feminino).
 print() # Imprime uma linha em branco para separar os blocos de código.
+
 boasVindas("Carlos", "m") # Chama a função boasVindas com os parâmetros "Carlos" e "m" (masculino).
 
